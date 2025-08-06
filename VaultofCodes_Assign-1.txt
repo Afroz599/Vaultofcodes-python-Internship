@@ -1,0 +1,104 @@
+#VaultofCodes | python  AUG 25 | Batch code:pa2y63ey
+#Assignment-1 :Code Review and Error Correction 
+#Objective: Identify, correct, and explain errors in Python code snippets to reinforce understanding of syntax and logic.
+'''Instructions: 
+For each code snippet below, do the following: 
+1. Identify the errors in the code. 
+2. Rewrite the corrected code. 
+3. Explain each error and why the correction works.''' 
+#Code snippets
+#1.Code Snippet 1
+'''
+1.Error 
+def add_numbers(a,b)
+No semi colon at the end of code
+2.Corrected code
+def add_nnumbers(a,b):
+    return a+b
+  print(add_numbers(5,10))
+3.Explanation
+The correction works beacause at the end of function semi-colon will determine it as a function'''
+#2.Code Snippet 2
+'''
+1.Error
+print("Hello,"+name)
+There is no proper closing for the value of variable name="Alice
+2.Corrected code
+name ="Alice"
+  print("Hello, "+name)
+3.Explanation
+The changes made will work as the closing of value stored in name is in proper format'''
+#3.Code Snippet 3
+'''
+1.Error
+for i range(5)
+Loops should end with semi-colon
+2.Corrected Code
+for i in range(5):
+    print("Number:",i)
+3.Explanation
+The changes made will work as semi-colon js added
+'''
+#4.Code Snippet 4
+'''
+1.Error
+print("The fifth element is:"+my_list[5])
+Array index Out of Bonds as the list index starts from zero
+2.Corrected code
+my_list=[1,2,3,4,5]
+print("The fifth element is:",my_list[4])
+3.Explanation
+The index is updated as the index given is 4 which refers to the 5 element of my_list
+'''
+#5.Code Snippet 5
+'''
+1.Error
+def greet(name):
+print("Hello"+name)
+There is no proper indendation given so the module get separated from the block of code
+2.Corrected code
+def greet(name):
+    print("Hello"+name)
+greet("Bob")
+3.Explanation
+proper indendation is made'''
+#6.Code Snippet 6
+'''
+1.Error
+age=input("Enter your age:")
+type caste error as input will take str as input comparision error
+2.Corrected code
+age=int(input("Enter your age:"))
+if age>=18:
+    print("You are eligible to vote.")
+else:
+    print("you are not eligible to vote.")
+3.Explanation
+Typecast is done conversion of str to int so comparision works so code works
+'''
+#7.Code Snippet 7
+'''
+1.Error
+return result 
+No indendtion is made 
+2.Corrected code
+def multiply(a,b):
+    result=a*b
+    return result
+print(multiply(4,5))
+3.Explanation
+Proper indendation made for return result'''
+#Code Spinnet 8
+'''
+1.Error
+while count>0
+There is no semi-colon for while loop
+2.Corrected code
+count=10
+while count>0:
+    print(count)
+    count-=1
+print("Countdown Complete!")
+3.Explanation
+proper format is provided for the loop with semi-colon
+'''
