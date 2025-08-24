@@ -23,4 +23,13 @@ It allows users to **log daily expenses, view summaries, and analyze spending wi
 
 ---
 ## 📂 Project Structure
+MiniProject-PersonalExpenseTracker/
+│── app.py # Main script
+│── requirements.txt # Dependencies
+│── images/# project screenshots
+| |__ sample_output.png # Example console output
+| |__ expenses_visualisation.png # Example chart
+| |__ saved_data_to_csv.png # Saved data in CSV
+| |__ code_snippet.png # Code snippet preview
+
 
