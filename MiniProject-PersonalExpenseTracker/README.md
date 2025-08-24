@@ -24,5 +24,3 @@ It allows users to **log daily expenses, view summaries, and analyze spending wi
 ---
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
