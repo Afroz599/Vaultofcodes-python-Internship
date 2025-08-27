@@ -20,4 +20,4 @@ vaultofcodes-todo-list/
 │── app.py              # Main application file
 │── requirements.txt    # Required libraries
 │── README.md           # Documentation
-│── To-do list.xlsx     # Auto-generated file with saved tasks
+│── To-do list.csv     # Auto-generated file with saved tasks
