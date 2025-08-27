@@ -16,8 +16,12 @@ It allows users to categorize tasks, add descriptions, and mark them as *Complet
 ---
 
 ##📂 Project Structure
-vaultofcodes-todo-list/
-│── app.py              # Main application file
-│── requirements.txt    # Required libraries
-│── README.md           # Documentation
-│── To-do list.csv     # Auto-generated file with saved tasks
+todo_app/
+│
+├── images/
+│   ├── program-screen-short.png
+│   └── todo-csv-screen-short.png
+│
+├── README.md
+├── todo.csv
+└── todo.py
