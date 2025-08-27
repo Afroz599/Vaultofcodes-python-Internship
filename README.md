@@ -8,7 +8,7 @@ This repository contains all assignments and mini-projects completed as part of 
 ---
 
 ## 📂 Folder Structure
-
+-
 VaultOfCodes-Python-Internship/
 │
 ├── Assignment-1/
